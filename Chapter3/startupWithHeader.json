@@ -1,0 +1,23 @@
+[
+  {
+    "description": "模拟带有header信息的post的请求",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "xiaoming",
+        "age": "20"
+      }
+    },
+    "response": {
+      "status": "200",
+      "json": {
+        "xiaoming": "success",
+        "status": "1"
+      }
+    }
+  }
+]
